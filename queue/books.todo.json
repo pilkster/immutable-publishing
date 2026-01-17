@@ -1,0 +1,222 @@
+{
+  "queue": [
+    {
+      "id": "pride-prejudice",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 1813,
+      "gutenberg_id": 1342,
+      "genre": "Romance/Classic",
+      "priority": 1,
+      "status": "pending"
+    },
+    {
+      "id": "frankenstein",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "year": 1818,
+      "gutenberg_id": 84,
+      "genre": "Gothic/Horror",
+      "priority": 1,
+      "status": "pending"
+    },
+    {
+      "id": "dracula",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "year": 1897,
+      "gutenberg_id": 345,
+      "genre": "Gothic/Horror",
+      "priority": 1,
+      "status": "pending"
+    },
+    {
+      "id": "sherlock-holmes",
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "year": 1892,
+      "gutenberg_id": 1661,
+      "genre": "Mystery/Detective",
+      "priority": 1,
+      "status": "pending"
+    },
+    {
+      "id": "moby-dick",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "year": 1851,
+      "gutenberg_id": 2701,
+      "genre": "Adventure/Classic",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "dorian-gray",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "year": 1890,
+      "gutenberg_id": 174,
+      "genre": "Gothic/Philosophical",
+      "priority": 1,
+      "status": "pending"
+    },
+    {
+      "id": "tale-two-cities",
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "year": 1859,
+      "gutenberg_id": 98,
+      "genre": "Historical Fiction",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "great-gatsby",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 1925,
+      "gutenberg_id": 64317,
+      "genre": "Literary Fiction",
+      "priority": 1,
+      "status": "pending",
+      "notes": "Just entered public domain 2021"
+    },
+    {
+      "id": "meditations",
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "year": 180,
+      "gutenberg_id": 2680,
+      "genre": "Philosophy",
+      "priority": 1,
+      "status": "pending"
+    },
+    {
+      "id": "art-of-war",
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "year": -500,
+      "gutenberg_id": 132,
+      "genre": "Philosophy/Strategy",
+      "priority": 1,
+      "status": "pending"
+    },
+    {
+      "id": "republic",
+      "title": "The Republic",
+      "author": "Plato",
+      "year": -375,
+      "gutenberg_id": 1497,
+      "genre": "Philosophy",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "zarathustra",
+      "title": "Thus Spoke Zarathustra",
+      "author": "Friedrich Nietzsche",
+      "year": 1885,
+      "gutenberg_id": 1998,
+      "genre": "Philosophy",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "crime-punishment",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "year": 1866,
+      "gutenberg_id": 2554,
+      "genre": "Psychological Fiction",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "war-peace",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "year": 1869,
+      "gutenberg_id": 2600,
+      "genre": "Historical Fiction/Epic",
+      "priority": 3,
+      "status": "pending",
+      "notes": "Very long - may need special handling"
+    },
+    {
+      "id": "odyssey",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "year": -700,
+      "gutenberg_id": 1727,
+      "genre": "Epic Poetry",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "don-quixote",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "year": 1605,
+      "gutenberg_id": 996,
+      "genre": "Satire/Adventure",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "grimm-fairy-tales",
+      "title": "Grimm's Fairy Tales",
+      "author": "Brothers Grimm",
+      "year": 1812,
+      "gutenberg_id": 2591,
+      "genre": "Fairy Tales/Folklore",
+      "priority": 1,
+      "status": "pending"
+    },
+    {
+      "id": "prince",
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "year": 1532,
+      "gutenberg_id": 1232,
+      "genre": "Political Philosophy",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "wuthering-heights",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "year": 1847,
+      "gutenberg_id": 768,
+      "genre": "Gothic/Romance",
+      "priority": 2,
+      "status": "pending"
+    },
+    {
+      "id": "jane-eyre",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "year": 1847,
+      "gutenberg_id": 1260,
+      "genre": "Gothic/Romance",
+      "priority": 2,
+      "status": "pending"
+    }
+  ],
+  "completed": [
+    {
+      "id": "alice-wonderland",
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "year": 1865,
+      "gutenberg_id": 11,
+      "completed_at": "2026-01-17T07:00:00Z",
+      "hash": "4e04ea77acf3b0215cae2089c977bc07526fc834597a1d463598d895354ba41d"
+    }
+  ],
+  "stats": {
+    "total_queued": 20,
+    "total_completed": 1,
+    "last_updated": "2026-01-17T07:38:00Z"
+  }
+}
