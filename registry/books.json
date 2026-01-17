@@ -1,0 +1,24 @@
+{
+  "publisher": "Immutable Publishing",
+  "mission": "Preserving humanity's literary heritage with cryptographic verification",
+  "website": "https://immutablepublishing.com",
+  "books": [
+    {
+      "id": "alice-wonderland",
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "year": 1865,
+      "source": "Project Gutenberg #11",
+      "sha256": "4e04ea77acf3b0215cae2089c977bc07526fc834597a1d463598d895354ba41d",
+      "bitcoin_timestamp": "pending",
+      "timestamp_submitted": "2026-01-17T06:27:28Z",
+      "downloads": {
+        "txt": "books/alice/content.txt",
+        "pdf": "books/alice/alice-wonderland.pdf",
+        "html": "books/alice/alice-wonderland.html",
+        "ots_proof": "books/alice/content.txt.ots"
+      },
+      "status": "published"
+    }
+  ]
+}

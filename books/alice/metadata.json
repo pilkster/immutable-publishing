@@ -1,0 +1,14 @@
+{
+  "id": "alice-wonderland",
+  "title": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll",
+  "year": 1865,
+  "source": "Project Gutenberg #11",
+  "source_url": "https://www.gutenberg.org/ebooks/11",
+  "sha256": "4e04ea77acf3b0215cae2089c977bc07526fc834597a1d463598d895354ba41d",
+  "ots_proof": "content.txt.ots",
+  "timestamp_submitted": "2026-01-17T06:27:28Z",
+  "status": "pending_bitcoin_confirmation",
+  "publisher": "Immutable Publishing",
+  "license": "Public Domain"
+}

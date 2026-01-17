@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Immutable Publishing - Verification Registry</title>
+<style>
+body { font-family: Georgia, serif; max-width: 800px; margin: 0 auto; padding: 40px 20px; line-height: 1.6; }
+h1 { color: #1a1a2e; border-bottom: 3px solid #4caf50; padding-bottom: 10px; }
+.verify-input { width: 100%; padding: 15px; font-family: monospace; font-size: 14px; border: 2px solid #ddd; border-radius: 5px; margin: 10px 0; }
+.verify-result { padding: 15px; margin: 10px 0; border-radius: 5px; }
+.success { background: #e8f5e9; border: 2px solid #4caf50; color: #2e7d32; }
+.fail { background: #ffebee; border: 2px solid #f44336; color: #c62828; }
+.book { background: #f8f8f8; padding: 20px; margin: 20px 0; border-radius: 10px; border-left: 4px solid #4caf50; }
+.hash { font-family: monospace; font-size: 12px; background: #eee; padding: 8px; border-radius: 3px; word-break: break-all; }
+.downloads a { margin-right: 15px; color: #4caf50; }
+.badge { display: inline-block; background: #4caf50; color: white; padding: 3px 10px; border-radius: 20px; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<h1>📚 Immutable Publishing</h1>
+<p><em>Verified. Permanent. Free.</em></p>
+
+<h2>Verify Your Copy</h2>
+<p>Paste the SHA-256 hash from your book's verification page:</p>
+<input type="text" class="verify-input" id="hash-input" placeholder="Enter SHA-256 hash...">
+<div id="verify-result"></div>
+
+<h2>Published Books</h2>
+<div id="book-list"></div>
+
+<h2>How It Works</h2>
+<ol>
+<li><strong>We hash the original text</strong> using SHA-256 (the same algorithm Bitcoin uses)</li>
+<li><strong>We anchor the hash to Bitcoin</strong> using OpenTimestamps - a free, open protocol</li>
+<li><strong>We publish the proof file</strong> so anyone can verify independently</li>
+<li><strong>The text is stored permanently</strong> (Arweave coming soon)</li>
+</ol>
+
+<p>You don't have to trust us. You can verify the hash yourself, and confirm the Bitcoin timestamp using the <a href="https://opentimestamps.org">OpenTimestamps</a> verifier.</p>
+
+<script>
+const registry = {"books":[{"id":"alice-wonderland","title":"Alice's Adventures in Wonderland","author":"Lewis Carroll","year":1865,"sha256":"4e04ea77acf3b0215cae2089c977bc07526fc834597a1d463598d895354ba41d","bitcoin_timestamp":"pending","downloads":{"txt":"books/alice/content.txt","pdf":"books/alice/alice-wonderland.pdf"}}]};
+
+// Render books
+const bookList = document.getElementById('book-list');
+registry.books.forEach(book => {
+  bookList.innerHTML += `
+    <div class="book">
+      <h3>${book.title} <span class="badge">✓ Verified</span></h3>
+      <p><strong>Author:</strong> ${book.author} (${book.year})</p>
+      <p><strong>Hash:</strong></p>
+      <div class="hash">${book.sha256}</div>
+      <p><strong>Bitcoin:</strong> ${book.bitcoin_timestamp === 'pending' ? '⏳ Pending confirmation' : '✓ Block ' + book.bitcoin_timestamp}</p>
+      <p class="downloads">
+        <strong>Downloads:</strong>
+        <a href="${book.downloads.txt}">📄 Text</a>
+        <a href="${book.downloads.pdf}">📕 PDF</a>
+      </p>
+    </div>
+  `;
+});
+
+// Verify function
+document.getElementById('hash-input').addEventListener('input', function(e) {
+  const hash = e.target.value.trim().toLowerCase();
+  const result = document.getElementById('verify-result');
+  
+  if (hash.length === 0) {
+    result.innerHTML = '';
+    return;
+  }
+  
+  const match = registry.books.find(b => b.sha256.toLowerCase() === hash);
+  
+  if (match) {
+    result.innerHTML = `<div class="verify-result success">✓ <strong>Verified!</strong><br>${match.title} by ${match.author}<br>This is an authentic, unaltered original text.</div>`;
+  } else if (hash.length === 64) {
+    result.innerHTML = `<div class="verify-result fail">✗ <strong>Not found</strong><br>This hash is not in our registry. The text may have been altered.</div>`;
+  } else {
+    result.innerHTML = `<div class="verify-result" style="background:#fff3e0;border-color:#ff9800;">⏳ Enter a complete 64-character SHA-256 hash</div>`;
+  }
+});
+</script>
+
+<hr>
+<p style="text-align:center;color:#666;">
+<strong>Immutable Publishing</strong><br>
+Preserving humanity's literary heritage with cryptographic verification.<br>
+<a href="https://github.com/immutable-publishing">GitHub</a> • <a href="https://opentimestamps.org">OpenTimestamps</a>
+</p>
+
+</body>
+</html>

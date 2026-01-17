@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Immutable Publishing - Complete Business Plan</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #4caf50; padding-bottom: 10px; }
+        h2 { color: #1a1a2e; margin-top: 40px; border-bottom: 1px solid #ddd; }
+        h3 { color: #444; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 14px; }
+        pre { background: #1a1a2e; color: #eee; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 13px; }
+        pre code { background: none; color: inherit; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background: #f8f8f8; }
+        blockquote { border-left: 4px solid #4caf50; margin: 20px 0; padding: 10px 20px; background: #f9f9f9; font-style: italic; }
+        hr { border: none; border-top: 2px solid #4caf50; margin: 50px 0; }
+        .manifesto { background: #1a1a2e; color: #eee; padding: 30px; border-radius: 10px; margin: 30px 0; }
+    </style>
+</head>
+<body>
+<h1>Immutable Publishing Inc.</h1>
+<h2>Business Plan</h2>
+<h3>"Verified Original Editions for the Digital Age"</h3>
+<hr />
+<h2>Executive Summary</h2>
+<p><strong>Immutable Publishing Inc.</strong> republishes public domain works with cryptographic verification, ensuring readers can prove they have the unaltered original text. In an era of silent content revisions, we offer permanence.</p>
+<p><strong>Mission:</strong> Preserve cultural heritage by publishing cryptographically verified editions of important public domain works.</p>
+<p><strong>Business Model:</strong> Low-cost publishing via Kindle Direct Publishing (KDP) and print-on-demand, differentiated by SHA-256 content verification.</p>
+<p><strong>Startup Cost:</strong> Under $200
+<strong>Break-even:</strong> ~50 book sales
+<strong>Scalability:</strong> Highly automated pipeline can publish 100+ titles/month</p>
+<hr />
+<h2>Problem Statement</h2>
+<h3>The Silent Revision Problem</h3>
+<p>Publishers increasingly modify books without notice:
+- <strong>Roald Dahl (2023):</strong> Puffin removed "fat," "ugly," gender references
+- <strong>Ian Fleming:</strong> Bond novels edited for racial terms
+- <strong>Agatha Christie:</strong> Ongoing title and content changes
+- <strong>Dr. Seuss:</strong> Books pulled entirely from publication</p>
+<h3>Why This Matters</h3>
+<ol>
+<li><strong>Cultural Heritage Loss</strong> - Original texts disappear from circulation</li>
+<li><strong>No Verification Possible</strong> - Readers can't prove they have the original</li>
+<li><strong>Ebook Mutability</strong> - Amazon can update Kindle books remotely (did so with <em>1984</em> in 2009)</li>
+<li><strong>Academic Integrity</strong> - Scholars need stable reference texts</li>
+<li><strong>Collector Value</strong> - No way to verify digital "first editions"</li>
+</ol>
+<h3>Market Gap</h3>
+<p>No publisher offers cryptographically verified editions. The technology is trivial; the will is absent because publishers benefit from silent revisions.</p>
+<hr />
+<h2>Solution</h2>
+<h3>Cryptographically Verified Publishing</h3>
+<p>Each Immutable Publishing book includes:</p>
+<ol>
+<li><strong>SHA-256 Hash</strong> on copyright page</li>
+<li><strong>Public Registry</strong> at immutablepublishing.com</li>
+<li><strong>Verification Tool</strong> - Paste text, confirm authenticity</li>
+<li><strong>"Verified Original" Branding</strong> - Trust mark on cover</li>
+</ol>
+<h3>Example Copyright Page</h3>
+<pre><code>IMMUTABLE PUBLISHING VERIFIED EDITION
+
+Original text sourced from Project Gutenberg #11
+First published: 1865 by Macmillan
+
+Content Hash (SHA-256):
+a7f8c3d2e1b4...
+
+Verify at: immutablepublishing.com/verify/alice-wonderland
+
+This text is cryptographically guaranteed to match
+Lewis Carroll's original 1865 publication.
+</code></pre>
+<hr />
+<h2>Business Model</h2>
+<h3>Revenue Streams</h3>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Price</th>
+<th>Royalty</th>
+<th>Net per Sale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kindle eBook</td>
+<td>$2.99</td>
+<td>70%</td>
+<td>$2.09</td>
+</tr>
+<tr>
+<td>Kindle eBook</td>
+<td>$0.99</td>
+<td>35%</td>
+<td>$0.35</td>
+</tr>
+<tr>
+<td>Paperback</td>
+<td>$9.99</td>
+<td>~$2.50</td>
+<td>$2.50</td>
+</tr>
+<tr>
+<td>Hardcover</td>
+<td>$19.99</td>
+<td>~$5.00</td>
+<td>$5.00</td>
+</tr>
+</tbody>
+</table>
+<h3>Pricing Strategy</h3>
+<ul>
+<li><strong>eBooks:</strong> $2.99 (hits 70% royalty tier)</li>
+<li><strong>Paperbacks:</strong> $9.99-12.99 (competitive with mass market)</li>
+<li><strong>Premium Hardcovers:</strong> $19.99-24.99 (collectors)</li>
+</ul>
+<h3>Cost Structure</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Cost</th>
+<th>Frequency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Domain</td>
+<td>$12</td>
+<td>Annual</td>
+</tr>
+<tr>
+<td>ISBNs (10-pack)</td>
+<td>$125</td>
+<td>One-time</td>
+</tr>
+<tr>
+<td>Cover templates</td>
+<td>$50</td>
+<td>One-time</td>
+</tr>
+<tr>
+<td>Hosting (GitHub Pages)</td>
+<td>$0</td>
+<td>-</td>
+</tr>
+<tr>
+<td>KDP account</td>
+<td>$0</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Book formatting</td>
+<td>$0</td>
+<td>Automated</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total Startup: $187</strong></p>
+<hr />
+<h2>Technical Architecture</h2>
+<h3>Automated Publishing Pipeline</h3>
+<pre><code>┌─────────────────┐
+│ Source Library  │  Project Gutenberg / Standard Ebooks
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Content Fetcher │  Automated download + validation
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Hash Generator  │  SHA-256 of canonical text
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Format Pipeline │  Generate EPUB, PDF, KDP-ready files
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Cover Generator │  Templated covers with branding
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Registry Update │  Add to public verification database
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ KDP Upload      │  Manual (API not public) or semi-auto
+└─────────────────┘
+</code></pre>
+<h3>Automation Scripts</h3>
+<h4>1. Book Fetcher (<code>fetch_book.py</code>)</h4>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;Fetch public domain book from Project Gutenberg&quot;&quot;&quot;
+
+import requests
+import hashlib
+import json
+from pathlib import Path
+
+def fetch_gutenberg(book_id: int) -&gt; dict:
+    &quot;&quot;&quot;Fetch book text and metadata from Project Gutenberg&quot;&quot;&quot;
+    # Get plain text
+    url = f&quot;https://www.gutenberg.org/cache/epub/{book_id}/pg{book_id}.txt&quot;
+    response = requests.get(url)
+    text = response.text
+
+    # Strip Gutenberg header/footer (standardize)
+    start = text.find(&quot;*** START OF&quot;)
+    end = text.find(&quot;*** END OF&quot;)
+    if start &gt; 0 and end &gt; 0:
+        clean_text = text[text.find('\n', start)+1:end].strip()
+    else:
+        clean_text = text
+
+    # Generate hash
+    content_hash = hashlib.sha256(clean_text.encode('utf-8')).hexdigest()
+
+    return {
+        'gutenberg_id': book_id,
+        'text': clean_text,
+        'hash': content_hash,
+        'source_url': url
+    }
+
+def save_book(book_data: dict, output_dir: Path):
+    &quot;&quot;&quot;Save book and metadata&quot;&quot;&quot;
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Save text
+    (output_dir / 'content.txt').write_text(book_data['text'])
+
+    # Save metadata
+    meta = {k: v for k, v in book_data.items() if k != 'text'}
+    (output_dir / 'metadata.json').write_text(json.dumps(meta, indent=2))
+
+    print(f&quot;Saved book {book_data['gutenberg_id']}&quot;)
+    print(f&quot;Hash: {book_data['hash']}&quot;)
+
+if __name__ == '__main__':
+    import sys
+    book_id = int(sys.argv[1])
+    data = fetch_gutenberg(book_id)
+    save_book(data, Path(f&quot;books/{book_id}&quot;))
+</code></pre>
+<h4>2. EPUB Generator (<code>generate_epub.py</code>)</h4>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;Generate KDP-ready EPUB from source text&quot;&quot;&quot;
+
+from ebooklib import epub
+import json
+from pathlib import Path
+
+def create_epub(book_dir: Path, title: str, author: str) -&gt; Path:
+    &quot;&quot;&quot;Create EPUB with verification page&quot;&quot;&quot;
+
+    meta = json.loads((book_dir / 'metadata.json').read_text())
+    text = (book_dir / 'content.txt').read_text()
+
+    book = epub.EpubBook()
+    book.set_identifier(f'immutable-{meta[&quot;gutenberg_id&quot;]}')
+    book.set_title(title)
+    book.set_language('en')
+    book.add_author(author)
+
+    # Verification page
+    verify_html = f'''
+    &lt;html&gt;&lt;body&gt;
+    &lt;h1&gt;Immutable Publishing Verified Edition&lt;/h1&gt;
+    &lt;p&gt;&lt;strong&gt;Content Hash (SHA-256):&lt;/strong&gt;&lt;/p&gt;
+    &lt;p style=&quot;font-family: monospace; word-break: break-all;&quot;&gt;
+    {meta[&quot;hash&quot;]}
+    &lt;/p&gt;
+    &lt;p&gt;Verify at: immutablepublishing.com/verify&lt;/p&gt;
+    &lt;p&gt;This text is cryptographically guaranteed to match the original publication.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+    '''
+
+    verify_chapter = epub.EpubHtml(title='Verification', file_name='verify.xhtml')
+    verify_chapter.content = verify_html
+    book.add_item(verify_chapter)
+
+    # Main content (split into chapters if needed)
+    content_chapter = epub.EpubHtml(title=title, file_name='content.xhtml')
+    content_chapter.content = f'&lt;html&gt;&lt;body&gt;&lt;pre&gt;{text}&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;'
+    book.add_item(content_chapter)
+
+    # Navigation
+    book.toc = [verify_chapter, content_chapter]
+    book.add_item(epub.EpubNcx())
+    book.add_item(epub.EpubNav())
+    book.spine = ['nav', verify_chapter, content_chapter]
+
+    output_path = book_dir / f'{title.lower().replace(&quot; &quot;, &quot;-&quot;)}.epub'
+    epub.write_epub(str(output_path), book)
+
+    return output_path
+</code></pre>
+<h4>3. Registry Manager (<code>registry.py</code>)</h4>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;Manage the public verification registry&quot;&quot;&quot;
+
+import json
+from pathlib import Path
+from datetime import datetime
+
+REGISTRY_FILE = Path('registry/books.json')
+
+def add_to_registry(book_id: str, title: str, author: str, 
+                    content_hash: str, source: str):
+    &quot;&quot;&quot;Add book to public registry&quot;&quot;&quot;
+
+    registry = json.loads(REGISTRY_FILE.read_text()) if REGISTRY_FILE.exists() else {'books': []}
+
+    entry = {
+        'id': book_id,
+        'title': title,
+        'author': author,
+        'hash': content_hash,
+        'source': source,
+        'added': datetime.utcnow().isoformat(),
+        'verify_url': f'https://immutablepublishing.com/verify/{book_id}'
+    }
+
+    # Update or add
+    existing = next((b for b in registry['books'] if b['id'] == book_id), None)
+    if existing:
+        existing.update(entry)
+    else:
+        registry['books'].append(entry)
+
+    REGISTRY_FILE.parent.mkdir(exist_ok=True)
+    REGISTRY_FILE.write_text(json.dumps(registry, indent=2))
+
+    return entry
+
+def generate_static_site():
+    &quot;&quot;&quot;Generate static verification site for GitHub Pages&quot;&quot;&quot;
+    registry = json.loads(REGISTRY_FILE.read_text())
+
+    html = '''&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Immutable Publishing - Verify&lt;/title&gt;
+    &lt;style&gt;
+        body { font-family: Georgia, serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .book { border-bottom: 1px solid #ccc; padding: 20px 0; }
+        .hash { font-family: monospace; font-size: 12px; word-break: break-all; }
+        input { width: 100%; padding: 10px; font-family: monospace; }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;📚 Immutable Publishing&lt;/h1&gt;
+    &lt;h2&gt;Verification Registry&lt;/h2&gt;
+
+    &lt;h3&gt;Verify Your Copy&lt;/h3&gt;
+    &lt;p&gt;Paste your book's SHA-256 hash to verify authenticity:&lt;/p&gt;
+    &lt;input type=&quot;text&quot; id=&quot;verify-input&quot; placeholder=&quot;Paste hash here...&quot;&gt;
+    &lt;div id=&quot;verify-result&quot;&gt;&lt;/div&gt;
+
+    &lt;h3&gt;Published Books&lt;/h3&gt;
+'''
+
+    for book in registry['books']:
+        html += f'''
+    &lt;div class=&quot;book&quot;&gt;
+        &lt;h4&gt;{book['title']}&lt;/h4&gt;
+        &lt;p&gt;&lt;strong&gt;Author:&lt;/strong&gt; {book['author']}&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Hash:&lt;/strong&gt; &lt;span class=&quot;hash&quot;&gt;{book['hash']}&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+'''
+
+    html += '''
+    &lt;script&gt;
+    const registry = ''' + json.dumps(registry['books']) + ''';
+    document.getElementById('verify-input').addEventListener('input', function(e) {
+        const hash = e.target.value.trim().toLowerCase();
+        const match = registry.find(b =&gt; b.hash.toLowerCase() === hash);
+        document.getElementById('verify-result').innerHTML = match 
+            ? '&lt;p style=&quot;color:green&quot;&gt;✓ Verified: ' + match.title + ' by ' + match.author + '&lt;/p&gt;'
+            : hash.length === 64 ? '&lt;p style=&quot;color:red&quot;&gt;✗ Not found in registry&lt;/p&gt;' : '';
+    });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;'''
+
+    Path('docs/index.html').parent.mkdir(exist_ok=True)
+    Path('docs/index.html').write_text(html)
+</code></pre>
+<h4>4. Cover Generator (<code>generate_cover.py</code>)</h4>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;Generate book covers using templates&quot;&quot;&quot;
+
+from PIL import Image, ImageDraw, ImageFont
+from pathlib import Path
+
+def generate_cover(title: str, author: str, output_path: Path,
+                   width: int = 1600, height: int = 2560):
+    &quot;&quot;&quot;Generate a simple, elegant cover&quot;&quot;&quot;
+
+    # Create image
+    img = Image.new('RGB', (width, height), '#1a1a2e')
+    draw = ImageDraw.Draw(img)
+
+    # Load fonts (fallback to default if not available)
+    try:
+        title_font = ImageFont.truetype('/System/Library/Fonts/Georgia.ttf', 120)
+        author_font = ImageFont.truetype('/System/Library/Fonts/Georgia.ttf', 60)
+        brand_font = ImageFont.truetype('/System/Library/Fonts/Helvetica.ttc', 40)
+    except:
+        title_font = ImageFont.load_default()
+        author_font = title_font
+        brand_font = title_font
+
+    # Draw title
+    draw.text((width//2, height//3), title, font=title_font, 
+              fill='#eee', anchor='mm')
+
+    # Draw author
+    draw.text((width//2, height//2), author, font=author_font,
+              fill='#aaa', anchor='mm')
+
+    # Draw brand
+    draw.text((width//2, height - 200), 'IMMUTABLE PUBLISHING', 
+              font=brand_font, fill='#666', anchor='mm')
+    draw.text((width//2, height - 140), '✓ VERIFIED ORIGINAL', 
+              font=brand_font, fill='#4caf50', anchor='mm')
+
+    img.save(output_path, 'JPEG', quality=95)
+    return output_path
+</code></pre>
+<h4>5. Master Pipeline (<code>publish.sh</code>)</h4>
+<pre><code class="language-bash">#!/bin/bash
+# Full publishing pipeline
+
+BOOK_ID=$1
+TITLE=$2
+AUTHOR=$3
+
+echo &quot;📚 Immutable Publishing Pipeline&quot;
+echo &quot;================================&quot;
+
+# Fetch source
+echo &quot;1. Fetching from Project Gutenberg...&quot;
+python3 fetch_book.py $BOOK_ID
+
+# Generate formats
+echo &quot;2. Generating EPUB...&quot;
+python3 generate_epub.py books/$BOOK_ID &quot;$TITLE&quot; &quot;$AUTHOR&quot;
+
+# Generate cover
+echo &quot;3. Generating cover...&quot;
+python3 generate_cover.py &quot;$TITLE&quot; &quot;$AUTHOR&quot; books/$BOOK_ID/cover.jpg
+
+# Update registry
+echo &quot;4. Updating registry...&quot;
+python3 -c &quot;from registry import add_to_registry; import json; \
+    meta = json.load(open('books/$BOOK_ID/metadata.json')); \
+    add_to_registry('$BOOK_ID', '$TITLE', '$AUTHOR', meta['hash'], 'gutenberg')&quot;
+
+# Generate site
+echo &quot;5. Regenerating verification site...&quot;
+python3 -c &quot;from registry import generate_static_site; generate_static_site()&quot;
+
+echo &quot;&quot;
+echo &quot;✅ Ready for KDP upload!&quot;
+echo &quot;   EPUB: books/$BOOK_ID/*.epub&quot;
+echo &quot;   Cover: books/$BOOK_ID/cover.jpg&quot;
+echo &quot;&quot;
+echo &quot;Manual step: Upload to kdp.amazon.com&quot;
+</code></pre>
+<hr />
+<h2>Go-to-Market Strategy</h2>
+<h3>Phase 1: Launch (Month 1)</h3>
+<p><strong>Goal:</strong> 20 cornerstone titles</p>
+<ol>
+<li><strong>Classic Literature</strong> (proven demand)</li>
+<li>Alice in Wonderland</li>
+<li>Pride and Prejudice</li>
+<li>Sherlock Holmes collection</li>
+<li>Dracula</li>
+<li>
+<p>Frankenstein</p>
+</li>
+<li>
+<p><strong>Philosophy</strong> (academic market)</p>
+</li>
+<li>Meditations (Marcus Aurelius)</li>
+<li>The Republic (Plato)</li>
+<li>
+<p>Nicomachean Ethics (Aristotle)</p>
+</li>
+<li>
+<p><strong>Recently Controversial</strong> (news hook)</p>
+</li>
+<li>Original Roald Dahl texts (pre-1928 where applicable)</li>
+<li>Early Fleming (if any pre-1928)</li>
+</ol>
+<h3>Phase 2: Scale (Months 2-6)</h3>
+<ul>
+<li>Expand to 100+ titles</li>
+<li>Automate cover generation with AI</li>
+<li>Build email list via verification site</li>
+<li>SEO for "original edition" searches</li>
+</ul>
+<h3>Phase 3: Premium (Months 6-12)</h3>
+<ul>
+<li>Hardcover editions for collectors</li>
+<li>"Library Edition" bundles</li>
+<li>Academic partnerships</li>
+<li>Audiobook verified editions</li>
+</ul>
+<hr />
+<h2>Marketing Channels</h2>
+<h3>Free/Low-Cost Marketing</h3>
+<ol>
+<li><strong>SEO Content</strong></li>
+<li>"Original vs revised [book name]"</li>
+<li>"How to verify your ebook"</li>
+<li>
+<p>"Books that have been silently changed"</p>
+</li>
+<li>
+<p><strong>Social Media</strong></p>
+</li>
+<li>Twitter/X threads on book alterations</li>
+<li>Reddit: r/books, r/literature, r/privacy</li>
+<li>
+<p>Hacker News (tech angle)</p>
+</li>
+<li>
+<p><strong>PR Hook</strong></p>
+</li>
+<li>"Publisher offers cryptographic proof of original text"</li>
+<li>
+<p>Pitch to tech and literary media</p>
+</li>
+<li>
+<p><strong>Academic Outreach</strong></p>
+</li>
+<li>Literature departments need stable reference texts</li>
+<li>Digital humanities angle</li>
+</ol>
+<h3>Paid (Optional)</h3>
+<ul>
+<li>Amazon Ads: $5-10/day test budget</li>
+<li>Target: "classic literature," "original edition," author names</li>
+</ul>
+<hr />
+<h2>Financial Projections</h2>
+<h3>Year 1 Conservative Estimate</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Titles Published</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Avg Sales/Title/Month</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Monthly Sales</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Avg Revenue/Sale</td>
+<td>$2.50</td>
+</tr>
+<tr>
+<td>Monthly Revenue</td>
+<td>$1,250</td>
+</tr>
+<tr>
+<td>Annual Revenue</td>
+<td>$15,000</td>
+</tr>
+<tr>
+<td>Costs</td>
+<td>$500</td>
+</tr>
+<tr>
+<td><strong>Net Profit</strong></td>
+<td><strong>$14,500</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Year 1 Optimistic (Viral Hit)</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Titles Published</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Avg Sales/Title/Month</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Monthly Sales</td>
+<td>5,000</td>
+</tr>
+<tr>
+<td>Avg Revenue/Sale</td>
+<td>$2.50</td>
+</tr>
+<tr>
+<td>Monthly Revenue</td>
+<td>$12,500</td>
+</tr>
+<tr>
+<td>Annual Revenue</td>
+<td>$150,000</td>
+</tr>
+</tbody>
+</table>
+<h3>Break-Even Analysis</h3>
+<ul>
+<li>Fixed costs: ~$200</li>
+<li>Variable cost per book: $0 (digital)</li>
+<li>At $2.09 net per ebook: <strong>96 sales to break even</strong></li>
+</ul>
+<hr />
+<h2>Risk Analysis</h2>
+<h3>Risks &amp; Mitigations</h3>
+<table>
+<thead>
+<tr>
+<th>Risk</th>
+<th>Likelihood</th>
+<th>Impact</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low sales volume</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Focus on SEO, niche marketing</td>
+</tr>
+<tr>
+<td>Amazon policy changes</td>
+<td>Low</td>
+<td>High</td>
+<td>Diversify to other platforms</td>
+</tr>
+<tr>
+<td>Copyright disputes</td>
+<td>Low</td>
+<td>Medium</td>
+<td>Stick to clear public domain</td>
+</tr>
+<tr>
+<td>Competition copies model</td>
+<td>Medium</td>
+<td>Low</td>
+<td>First-mover advantage, brand</td>
+</tr>
+<tr>
+<td>Technical verification bypass</td>
+<td>Low</td>
+<td>Low</td>
+<td>Hash is proof, not DRM</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Legal Considerations</h2>
+<h3>Public Domain Rules</h3>
+<p><strong>United States:</strong>
+- Works published before 1928: Public domain
+- Works by authors dead 70+ years: Check carefully
+- Government works: Public domain</p>
+<p><strong>Safe Sources:</strong>
+- Project Gutenberg (pre-vetted)
+- Standard Ebooks (pre-vetted)
+- Internet Archive (check dates)</p>
+<h3>Disclaimers</h3>
+<ul>
+<li>"Original text edition" (not "definitive" or "authorized")</li>
+<li>Clear source attribution</li>
+<li>No copyright claim on public domain text</li>
+<li>Copyright only on cover design, formatting</li>
+</ul>
+<hr />
+<h2>Implementation Roadmap</h2>
+<h3>Week 1: Foundation</h3>
+<ul>
+<li>[ ] Register domain: immutablepublishing.com</li>
+<li>[ ] Set up GitHub repo + Pages</li>
+<li>[ ] Create KDP account</li>
+<li>[ ] Design cover template</li>
+<li>[ ] Write automation scripts</li>
+</ul>
+<h3>Week 2: First Books</h3>
+<ul>
+<li>[ ] Publish 5 pilot titles</li>
+<li>[ ] Test verification flow</li>
+<li>[ ] Gather initial reviews</li>
+</ul>
+<h3>Week 3-4: Scale</h3>
+<ul>
+<li>[ ] Publish 15 more titles (20 total)</li>
+<li>[ ] Launch marketing push</li>
+<li>[ ] Set up analytics</li>
+</ul>
+<h3>Month 2+: Growth</h3>
+<ul>
+<li>[ ] 10 new titles/week</li>
+<li>[ ] Content marketing</li>
+<li>[ ] Community building</li>
+</ul>
+<hr />
+<h2>Appendix A: Recommended First 20 Titles</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Title</th>
+<th>Author</th>
+<th>Gutenberg ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alice's Adventures in Wonderland</td>
+<td>Lewis Carroll</td>
+<td>11</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Pride and Prejudice</td>
+<td>Jane Austen</td>
+<td>1342</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Frankenstein</td>
+<td>Mary Shelley</td>
+<td>84</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Dracula</td>
+<td>Bram Stoker</td>
+<td>345</td>
+</tr>
+<tr>
+<td>5</td>
+<td>The Adventures of Sherlock Holmes</td>
+<td>Arthur Conan Doyle</td>
+<td>1661</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Moby Dick</td>
+<td>Herman Melville</td>
+<td>2701</td>
+</tr>
+<tr>
+<td>7</td>
+<td>The Picture of Dorian Gray</td>
+<td>Oscar Wilde</td>
+<td>174</td>
+</tr>
+<tr>
+<td>8</td>
+<td>A Tale of Two Cities</td>
+<td>Charles Dickens</td>
+<td>98</td>
+</tr>
+<tr>
+<td>9</td>
+<td>The Great Gatsby</td>
+<td>F. Scott Fitzgerald</td>
+<td>64317</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1984</td>
+<td>George Orwell</td>
+<td>(Not PD yet)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Meditations</td>
+<td>Marcus Aurelius</td>
+<td>2680</td>
+</tr>
+<tr>
+<td>12</td>
+<td>The Art of War</td>
+<td>Sun Tzu</td>
+<td>132</td>
+</tr>
+<tr>
+<td>13</td>
+<td>The Republic</td>
+<td>Plato</td>
+<td>1497</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Thus Spoke Zarathustra</td>
+<td>Friedrich Nietzsche</td>
+<td>1998</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Crime and Punishment</td>
+<td>Fyodor Dostoevsky</td>
+<td>2554</td>
+</tr>
+<tr>
+<td>16</td>
+<td>War and Peace</td>
+<td>Leo Tolstoy</td>
+<td>2600</td>
+</tr>
+<tr>
+<td>17</td>
+<td>The Odyssey</td>
+<td>Homer</td>
+<td>1727</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Don Quixote</td>
+<td>Miguel de Cervantes</td>
+<td>996</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Grimm's Fairy Tales</td>
+<td>Brothers Grimm</td>
+<td>2591</td>
+</tr>
+<tr>
+<td>20</td>
+<td>The Prince</td>
+<td>Niccolò Machiavelli</td>
+<td>1232</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Appendix B: Tool Requirements</h2>
+<pre><code class="language-bash"># Python dependencies
+pip install requests ebooklib pillow
+
+# Optional: Better EPUB editing
+pip install calibre  # Or use Calibre GUI
+
+# System tools (macOS)
+brew install imagemagick  # For cover manipulation
+</code></pre>
+<hr />
+<h2>Appendix C: KDP Upload Checklist</h2>
+<p>For each book:
+- [ ] EPUB file (Kindle-compatible)
+- [ ] Cover image (2560x1600 minimum)
+- [ ] Title, subtitle, author
+- [ ] Description (include verification angle)
+- [ ] Keywords (7 allowed)
+- [ ] Categories (2 allowed)
+- [ ] Price ($2.99 recommended)
+- [ ] Territories (worldwide)</p>
+<hr />
+<h2>Summary</h2>
+<p><strong>Immutable Publishing Inc.</strong> fills a genuine market gap with minimal startup costs and high automation potential. The cryptographic verification angle is both technically simple and marketing-gold in the current climate of content revision concerns.</p>
+<p><strong>Next Steps:</strong>
+1. Decide on domain/branding
+2. Run the automation scripts on 5 pilot books
+3. Launch, test, iterate</p>
+<hr />
+<p><em>Business Plan v1.0</em>
+<em>Prepared by Aineko 🐱</em>
+<em>January 2026</em></p>
+<hr />
+<h1>Immutable Publishing - Blockchain &amp; Public Good Addendum</h1>
+<h2>Philosophy Shift</h2>
+<p><strong>Original model:</strong> Business selling verified books
+<strong>New model:</strong> Public good infrastructure for cultural preservation, sustainably funded</p>
+<blockquote>
+<p>"The original texts of humanity's literary heritage should be freely available and cryptographically verifiable by anyone, forever."</p>
+</blockquote>
+<hr />
+<h2>Blockchain Architecture</h2>
+<h3>Dual-Layer Verification</h3>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│                    VERIFICATION LAYERS                   │
+├─────────────────────────────────────────────────────────┤
+│                                                          │
+│  Layer 1: TIMESTAMP PROOF (OpenTimestamps)              │
+│  ├── Hash anchored to Bitcoin                           │
+│  ├── Proves text existed at specific time               │
+│  ├── Cost: FREE (batched transactions)                  │
+│  └── Verification: ots verify &lt;file&gt;                    │
+│                                                          │
+│  Layer 2: PERMANENT STORAGE (Arweave)                   │
+│  ├── Full text stored on-chain                          │
+│  ├── Immutable, censorship-resistant                    │
+│  ├── Cost: ~$0.01-0.10 per book                        │
+│  └── Access: ar://[transaction-id]                      │
+│                                                          │
+└─────────────────────────────────────────────────────────┘
+</code></pre>
+<h3>Why Two Layers?</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Purpose</th>
+<th>Survives</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OpenTimestamps</td>
+<td>Prove hash existed at time T</td>
+<td>Website death, company death, server seizure</td>
+</tr>
+<tr>
+<td>Arweave</td>
+<td>Store actual content</td>
+<td>Internet censorship, DMCA, company death</td>
+</tr>
+</tbody>
+</table>
+<p>Together: <strong>Cryptographic proof of what the text said, stored forever, verifiable by anyone</strong></p>
+<hr />
+<h2>OpenTimestamps Integration</h2>
+<h3>What It Is</h3>
+<ul>
+<li>Free, open-source Bitcoin timestamping</li>
+<li>Batches thousands of hashes into one BTC transaction</li>
+<li>Run by volunteers, no company to fail</li>
+<li>Used by Internet Archive, journalists, legal firms</li>
+</ul>
+<h3>How It Works</h3>
+<pre><code class="language-bash"># Install
+pip install opentimestamps-client
+
+# Timestamp a file (creates .ots proof file)
+ots stamp book.txt
+# Uploads hash, returns immediately
+# Proof confirmed when Bitcoin block is mined (~10 min - 2 hours)
+
+# Verify a timestamp
+ots verify book.txt.ots
+# Output: &quot;Success! Bitcoin block 871234 attests data existed as of 2026-01-17&quot;
+</code></pre>
+<h3>Integration Code</h3>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;OpenTimestamps integration for book verification&quot;&quot;&quot;
+
+import subprocess
+import hashlib
+from pathlib import Path
+from datetime import datetime
+
+def timestamp_book(book_path: Path) -&gt; Path:
+    &quot;&quot;&quot;Create Bitcoin-anchored timestamp for a book&quot;&quot;&quot;
+
+    # Generate hash
+    content = book_path.read_bytes()
+    sha256 = hashlib.sha256(content).hexdigest()
+
+    # Create timestamp
+    result = subprocess.run(
+        ['ots', 'stamp', str(book_path)],
+        capture_output=True, text=True
+    )
+
+    ots_path = book_path.with_suffix(book_path.suffix + '.ots')
+
+    return {
+        'book': str(book_path),
+        'sha256': sha256,
+        'ots_proof': str(ots_path),
+        'timestamp': datetime.utcnow().isoformat(),
+        'status': 'pending_confirmation'  # Confirmed after Bitcoin block
+    }
+
+def verify_timestamp(book_path: Path) -&gt; dict:
+    &quot;&quot;&quot;Verify a book's timestamp against Bitcoin&quot;&quot;&quot;
+
+    ots_path = book_path.with_suffix(book_path.suffix + '.ots')
+
+    result = subprocess.run(
+        ['ots', 'verify', str(ots_path)],
+        capture_output=True, text=True
+    )
+
+    return {
+        'verified': 'Success' in result.stdout,
+        'output': result.stdout,
+        'bitcoin_block': _extract_block(result.stdout)
+    }
+
+def _extract_block(output: str) -&gt; str:
+    &quot;&quot;&quot;Extract Bitcoin block number from OTS output&quot;&quot;&quot;
+    import re
+    match = re.search(r'block (\d+)', output)
+    return match.group(1) if match else None
+</code></pre>
+<hr />
+<h2>Arweave Integration</h2>
+<h3>What It Is</h3>
+<ul>
+<li>Permanent, decentralized storage</li>
+<li>Pay once, stored forever (200+ year economic model)</li>
+<li>~$0.01-0.10 per book (text is small)</li>
+<li>Content-addressed: ar://[txid]</li>
+</ul>
+<h3>Setup</h3>
+<pre><code class="language-bash"># Install Arweave bundler CLI
+npm install -g @bundlr-network/client
+
+# Fund your bundler account (accepts crypto or fiat)
+bundlr fund 0.01 -c arweave
+
+# Upload a file
+bundlr upload book.txt -c arweave
+# Returns: https://arweave.net/[transaction-id]
+</code></pre>
+<h3>Integration Code</h3>
+<pre><code class="language-python">#!/usr/bin/env python3
+&quot;&quot;&quot;Arweave permanent storage for books&quot;&quot;&quot;
+
+import subprocess
+import json
+from pathlib import Path
+
+def upload_to_arweave(book_path: Path, metadata: dict) -&gt; dict:
+    &quot;&quot;&quot;Upload book to Arweave permanent storage&quot;&quot;&quot;
+
+    # Add metadata tags
+    tags = [
+        f&quot;-t&quot;, &quot;Content-Type&quot;, &quot;text/plain&quot;,
+        f&quot;-t&quot;, &quot;App-Name&quot;, &quot;ImmutablePublishing&quot;,
+        f&quot;-t&quot;, &quot;Title&quot;, metadata.get('title', 'Unknown'),
+        f&quot;-t&quot;, &quot;Author&quot;, metadata.get('author', 'Unknown'),
+        f&quot;-t&quot;, &quot;SHA256&quot;, metadata.get('hash', ''),
+        f&quot;-t&quot;, &quot;Source&quot;, metadata.get('source', 'Project Gutenberg'),
+    ]
+
+    result = subprocess.run(
+        ['bundlr', 'upload', str(book_path), '-c', 'arweave'] + tags,
+        capture_output=True, text=True
+    )
+
+    # Parse transaction ID from output
+    # Output format: &quot;Uploaded to https://arweave.net/[txid]&quot;
+    txid = result.stdout.split('/')[-1].strip()
+
+    return {
+        'arweave_txid': txid,
+        'arweave_url': f'https://arweave.net/{txid}',
+        'ar_protocol': f'ar://{txid}',
+        'permanent': True
+    }
+
+def verify_arweave(txid: str, expected_hash: str) -&gt; dict:
+    &quot;&quot;&quot;Verify content on Arweave matches expected hash&quot;&quot;&quot;
+
+    import requests
+    import hashlib
+
+    url = f'https://arweave.net/{txid}'
+    response = requests.get(url)
+
+    actual_hash = hashlib.sha256(response.content).hexdigest()
+
+    return {
+        'matches': actual_hash == expected_hash,
+        'expected': expected_hash,
+        'actual': actual_hash,
+        'url': url
+    }
+</code></pre>
+<hr />
+<h2>Revised Business Model</h2>
+<h3>Free Public Good Tier</h3>
+<p>Everything needed to verify and read original texts:</p>
+<table>
+<thead>
+<tr>
+<th>Asset</th>
+<th>Location</th>
+<th>Cost to User</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full text (TXT)</td>
+<td>Arweave</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>PDF (formatted)</td>
+<td>Website + IPFS</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>EPUB</td>
+<td>Website + IPFS</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>OTS proof file</td>
+<td>Website + GitHub</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>Verification tool</td>
+<td>Open source</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>Hash registry</td>
+<td>Public API</td>
+<td>Free</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Funding:</strong> Donations, grants, institutional sponsors</p>
+<h3>Sustainable Revenue Tier</h3>
+<p>Convenience and physical goods:</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Margin</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kindle delivery</td>
+<td>$0.99</td>
+<td>35%</td>
+<td>One-click convenience</td>
+</tr>
+<tr>
+<td>Kindle (premium format)</td>
+<td>$2.99</td>
+<td>70%</td>
+<td>Enhanced formatting</td>
+</tr>
+<tr>
+<td>Paperback</td>
+<td>$9.99-14.99</td>
+<td>$2-5</td>
+<td>Print-on-demand</td>
+</tr>
+<tr>
+<td>Hardcover</td>
+<td>$19.99-29.99</td>
+<td>$5-10</td>
+<td>Collectors</td>
+</tr>
+<tr>
+<td>Library bundle</td>
+<td>$99/year</td>
+<td>100%</td>
+<td>Institutional access</td>
+</tr>
+<tr>
+<td>"Patron" tier</td>
+<td>$5-50/month</td>
+<td>100%</td>
+<td>Supporter donations</td>
+</tr>
+</tbody>
+</table>
+<h3>Funding Mix Target</h3>
+<pre><code>Year 1:
+├── Kindle/POD sales: 60%
+├── Donations: 30%
+└── Grants: 10%
+
+Year 3 (mature):
+├── Kindle/POD sales: 40%
+├── Donations: 25%
+├── Grants: 15%
+├── Institutional: 15%
+└── Merchandise: 5%
+</code></pre>
+<hr />
+<h2>Technical Architecture (Updated)</h2>
+<pre><code>┌─────────────────────────────────────────────────────────────────┐
+│                     IMMUTABLE PUBLISHING STACK                   │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐         │
+│  │   SOURCE    │───▶│  PIPELINE   │───▶│   OUTPUT    │         │
+│  │             │    │             │    │             │         │
+│  │ • Gutenberg │    │ • Hash      │    │ • Arweave   │         │
+│  │ • Std Ebooks│    │ • Format    │    │ • IPFS      │         │
+│  │ • IA Scans  │    │ • OTS Stamp │    │ • Website   │         │
+│  └─────────────┘    │ • Arweave   │    │ • KDP       │         │
+│                     │ • KDP Prep  │    │ • GitHub    │         │
+│                     └─────────────┘    └─────────────┘         │
+│                                                                  │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │                    PUBLIC REGISTRY                       │   │
+│  │                                                          │   │
+│  │  {                                                       │   │
+│  │    &quot;title&quot;: &quot;Alice's Adventures in Wonderland&quot;,         │   │
+│  │    &quot;author&quot;: &quot;Lewis Carroll&quot;,                           │   │
+│  │    &quot;sha256&quot;: &quot;a7f8c3d2e1b4...&quot;,                        │   │
+│  │    &quot;bitcoin_block&quot;: 871234,                             │   │
+│  │    &quot;bitcoin_timestamp&quot;: &quot;2026-01-17T06:00:00Z&quot;,        │   │
+│  │    &quot;arweave_txid&quot;: &quot;Abc123...&quot;,                        │   │
+│  │    &quot;downloads&quot;: {                                       │   │
+│  │      &quot;txt&quot;: &quot;ar://Abc123...&quot;,                          │   │
+│  │      &quot;pdf&quot;: &quot;https://immutablepub.com/dl/alice.pdf&quot;,   │   │
+│  │      &quot;epub&quot;: &quot;ipfs://Qm...&quot;,                           │   │
+│  │      &quot;ots&quot;: &quot;https://immutablepub.com/proofs/alice.ots&quot;│   │
+│  │    }                                                    │   │
+│  │  }                                                      │   │
+│  │                                                          │   │
+│  │  API: GET /api/v1/books/{id}                           │   │
+│  │  Bulk: GET /api/v1/registry.json                       │   │
+│  │                                                          │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+</code></pre>
+<hr />
+<h2>Updated Pipeline Script</h2>
+<pre><code class="language-bash">#!/bin/bash
+# publish.sh - Full pipeline with blockchain integration
+
+BOOK_ID=$1
+TITLE=$2
+AUTHOR=$3
+
+echo &quot;📚 Immutable Publishing Pipeline (Blockchain Edition)&quot;
+echo &quot;======================================================&quot;
+
+# 1. Fetch source
+echo &quot;1. Fetching from Project Gutenberg...&quot;
+python3 fetch_book.py $BOOK_ID
+
+# 2. Generate hash
+echo &quot;2. Computing SHA-256...&quot;
+HASH=$(sha256sum books/$BOOK_ID/content.txt | cut -d' ' -f1)
+echo &quot;   Hash: $HASH&quot;
+
+# 3. Bitcoin timestamp (OpenTimestamps)
+echo &quot;3. Creating Bitcoin timestamp...&quot;
+ots stamp books/$BOOK_ID/content.txt
+echo &quot;   Proof: books/$BOOK_ID/content.txt.ots&quot;
+echo &quot;   (Will confirm in ~1-2 hours when Bitcoin block is mined)&quot;
+
+# 4. Permanent storage (Arweave)
+echo &quot;4. Uploading to Arweave...&quot;
+ARWEAVE_URL=$(bundlr upload books/$BOOK_ID/content.txt -c arweave \
+    -t Content-Type text/plain \
+    -t App-Name ImmutablePublishing \
+    -t Title &quot;$TITLE&quot; \
+    -t Author &quot;$AUTHOR&quot; \
+    -t SHA256 &quot;$HASH&quot; | grep -o 'https://arweave.net/[^ ]*')
+echo &quot;   Permanent URL: $ARWEAVE_URL&quot;
+
+# 5. Generate formats
+echo &quot;5. Generating EPUB and PDF...&quot;
+python3 generate_epub.py books/$BOOK_ID &quot;$TITLE&quot; &quot;$AUTHOR&quot;
+python3 generate_pdf.py books/$BOOK_ID &quot;$TITLE&quot; &quot;$AUTHOR&quot;
+
+# 6. Generate cover
+echo &quot;6. Generating cover...&quot;
+python3 generate_cover.py &quot;$TITLE&quot; &quot;$AUTHOR&quot; books/$BOOK_ID/cover.jpg
+
+# 7. Upload to IPFS (redundancy)
+echo &quot;7. Pinning to IPFS...&quot;
+IPFS_CID=$(ipfs add -q books/$BOOK_ID/content.txt)
+echo &quot;   IPFS: ipfs://$IPFS_CID&quot;
+
+# 8. Update registry
+echo &quot;8. Updating public registry...&quot;
+python3 registry.py add \
+    --id &quot;$BOOK_ID&quot; \
+    --title &quot;$TITLE&quot; \
+    --author &quot;$AUTHOR&quot; \
+    --hash &quot;$HASH&quot; \
+    --arweave &quot;$ARWEAVE_URL&quot; \
+    --ipfs &quot;$IPFS_CID&quot; \
+    --ots &quot;books/$BOOK_ID/content.txt.ots&quot;
+
+# 9. Generate static site
+echo &quot;9. Regenerating website...&quot;
+python3 registry.py generate-site
+
+# 10. Deploy
+echo &quot;10. Deploying to GitHub Pages...&quot;
+cd docs &amp;&amp; git add -A &amp;&amp; git commit -m &quot;Add $TITLE&quot; &amp;&amp; git push
+
+echo &quot;&quot;
+echo &quot;✅ PUBLISHED!&quot;
+echo &quot;&quot;
+echo &quot;Free downloads:&quot;
+echo &quot;  Arweave (permanent): $ARWEAVE_URL&quot;
+echo &quot;  IPFS: ipfs://$IPFS_CID&quot;
+echo &quot;  Website: https://immutablepublishing.com/books/$BOOK_ID&quot;
+echo &quot;&quot;
+echo &quot;Verification:&quot;
+echo &quot;  Hash: $HASH&quot;
+echo &quot;  OTS Proof: books/$BOOK_ID/content.txt.ots&quot;
+echo &quot;  Bitcoin confirmation: pending (~1-2 hours)&quot;
+echo &quot;&quot;
+echo &quot;KDP upload (manual): books/$BOOK_ID/*.epub + cover.jpg&quot;
+</code></pre>
+<hr />
+<h2>Estimated Blockchain Costs</h2>
+<h3>Per Book</h3>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OpenTimestamps</td>
+<td>$0.00</td>
+<td>Free forever</td>
+</tr>
+<tr>
+<td>Arweave (~50KB text)</td>
+<td>$0.01</td>
+<td>One-time, permanent</td>
+</tr>
+<tr>
+<td>IPFS pinning</td>
+<td>$0.00</td>
+<td>Free via Pinata free tier</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>~$0.01</strong></td>
+<td>Per book, forever</td>
+</tr>
+</tbody>
+</table>
+<h3>At Scale (1000 books)</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arweave storage</td>
+<td>$10</td>
+</tr>
+<tr>
+<td>Domain</td>
+<td>$12/year</td>
+</tr>
+<tr>
+<td>Hosting</td>
+<td>$0 (GitHub Pages)</td>
+</tr>
+<tr>
+<td><strong>Total Year 1</strong></td>
+<td><strong>~$22</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Governance &amp; Legal Structure</h2>
+<h3>Recommended: Non-Profit (501c3) or Public Benefit Corp</h3>
+<p><strong>Why:</strong>
+- Aligns with public good mission
+- Eligible for grants (NEH, Mellon, Sloan)
+- Tax-deductible donations
+- Credibility with institutions</p>
+<p><strong>Board composition:</strong>
+- Librarians / archivists
+- Digital humanities scholars
+- Open source advocates
+- Legal (copyright/public domain experts)</p>
+<h3>Alternative: DAO</h3>
+<p>For full decentralization:
+- Treasury controlled by token holders
+- Proposals for new books to publish
+- Community-driven curation</p>
+<p><strong>Pros:</strong> Censorship-resistant, community-owned
+<strong>Cons:</strong> Regulatory uncertainty, harder to get grants</p>
+<hr />
+<h2>Partnerships</h2>
+<h3>Natural Allies</h3>
+<table>
+<thead>
+<tr>
+<th>Organization</th>
+<th>Collaboration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Internet Archive</td>
+<td>Source texts, cross-promotion</td>
+</tr>
+<tr>
+<td>Project Gutenberg</td>
+<td>Official verification partner</td>
+</tr>
+<tr>
+<td>Standard Ebooks</td>
+<td>Share formatting, co-brand</td>
+</tr>
+<tr>
+<td>EFF</td>
+<td>Advocacy, legal support</td>
+</tr>
+<tr>
+<td>Library of Congress</td>
+<td>Credibility, grants</td>
+</tr>
+<tr>
+<td>Universities</td>
+<td>Research partnerships</td>
+</tr>
+</tbody>
+</table>
+<h3>Potential Funders</h3>
+<ul>
+<li><strong>NEH (National Endowment for Humanities)</strong> - Digital humanities grants</li>
+<li><strong>Mellon Foundation</strong> - Library/archive funding</li>
+<li><strong>Sloan Foundation</strong> - Tech + public interest</li>
+<li><strong>Knight Foundation</strong> - Media/information integrity</li>
+<li><strong>Protocol Labs</strong> - IPFS/Filecoin ecosystem grants</li>
+<li><strong>Arweave</strong> - Permanent storage grants</li>
+</ul>
+<hr />
+<h2>Manifesto Draft</h2>
+<blockquote>
+<h3>The Immutable Publishing Manifesto</h3>
+<p>The great works of human literature belong to everyone.</p>
+<p>When a publisher silently changes Roald Dahl, when Amazon deletes 1984 from your Kindle, when sensitivity readers erase the past—we lose more than words. We lose our ability to understand where we came from.</p>
+<p>We believe:</p>
+<ol>
+<li>
+<p><strong>Original texts should be freely available.</strong> If it's in the public domain, it should be free to read.</p>
+</li>
+<li>
+<p><strong>Verification should be trustless.</strong> You shouldn't have to trust us, or anyone. Verify against Bitcoin. Verify against Arweave. The math doesn't lie.</p>
+</li>
+<li>
+<p><strong>Preservation is a public good.</strong> We exist to serve readers, scholars, and future generations—not shareholders.</p>
+</li>
+<li>
+<p><strong>Technology should serve culture.</strong> Blockchains aren't just for speculation. They're tools for permanent, uncensorable truth.</p>
+</li>
+</ol>
+<p>We publish books that cannot be unpublished.
+We preserve texts that cannot be altered.
+We verify truth that cannot be denied.</p>
+<p><strong>Immutable Publishing</strong>
+<em>Verified. Permanent. Free.</em></p>
+</blockquote>
+<hr />
+<h2>Summary</h2>
+<p>Adding blockchain transforms this from "business with a trust problem" to "public infrastructure for cultural preservation."</p>
+<p><strong>Cost increase:</strong> ~$0.01 per book
+<strong>Credibility increase:</strong> Massive
+<strong>Mission alignment:</strong> Perfect</p>
+<p>The paid tiers (Kindle, print) sustain the free public good. The blockchain ensures it survives regardless of what happens to the company.</p>
+<p>This is how you build something that matters.</p>
+<p>🐱</p>
+</body>
+</html>
