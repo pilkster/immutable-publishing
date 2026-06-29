@@ -1,16 +1,6 @@
 {
   "queue": [
     {
-      "id": "pride-prejudice",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "year": 1813,
-      "gutenberg_id": 1342,
-      "genre": "Romance/Classic",
-      "priority": 1,
-      "status": "pending"
-    },
-    {
       "id": "frankenstein",
       "title": "Frankenstein",
       "author": "Mary Shelley",
@@ -175,7 +165,7 @@
     {
       "id": "prince",
       "title": "The Prince",
-      "author": "Niccolò Machiavelli",
+      "author": "Niccol\u00f2 Machiavelli",
       "year": 1532,
       "gutenberg_id": 1232,
       "genre": "Political Philosophy",
@@ -185,7 +175,7 @@
     {
       "id": "wuthering-heights",
       "title": "Wuthering Heights",
-      "author": "Emily Brontë",
+      "author": "Emily Bront\u00eb",
       "year": 1847,
       "gutenberg_id": 768,
       "genre": "Gothic/Romance",
@@ -195,7 +185,7 @@
     {
       "id": "jane-eyre",
       "title": "Jane Eyre",
-      "author": "Charlotte Brontë",
+      "author": "Charlotte Bront\u00eb",
       "year": 1847,
       "gutenberg_id": 1260,
       "genre": "Gothic/Romance",
@@ -212,11 +202,23 @@
       "gutenberg_id": 11,
       "completed_at": "2026-01-17T07:00:00Z",
       "hash": "4e04ea77acf3b0215cae2089c977bc07526fc834597a1d463598d895354ba41d"
+    },
+    {
+      "id": "pride-prejudice",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 1813,
+      "gutenberg_id": 1342,
+      "genre": "Romance/Classic",
+      "priority": 1,
+      "status": "pending",
+      "completed_at": "2026-01-17T10:44:07Z",
+      "hash": "b49a14027e84800c320cc1ab62c9c87424da4665f7ea0907750c7bc195e0464d"
     }
   ],
   "stats": {
-    "total_queued": 20,
-    "total_completed": 1,
-    "last_updated": "2026-01-17T07:38:00Z"
+    "total_queued": 19,
+    "total_completed": 2,
+    "last_updated": "2026-01-17T10:44:07Z"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "id": "pride-prejudice",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "year": 1813,
+  "source": "Project Gutenberg #1342",
+  "source_url": "https://www.gutenberg.org/ebooks/1342",
+  "sha256": "b49a14027e84800c320cc1ab62c9c87424da4665f7ea0907750c7bc195e0464d",
+  "ots_proof": "content.txt.ots",
+  "timestamp_submitted": "2026-01-17T10:43:45Z",
+  "status": "pending_confirmation",
+  "publisher": "Immutable Publishing",
+  "license": "Public Domain"
+}
